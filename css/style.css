@@ -1,19 +1,72 @@
-/* 
+body {
+  font-size: 14px;
+  font-family: "Times New Roman" serif;
+  color: black;
+  /* background: #F3EBE9; */
+  background: url(../images/pattern1.png);
+  background-repeat: repeat;
+  background-size: auto;
+  margin: 0 auto; }
 
-Style Hints: 
+h1 {
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  color: #FFF; }
 
-Body Font Size = 14px
-	 Font Family = "Times New Roman", serif
-	 Font Color = black
-	 Background: #F3EBE9
+h2 {
+  font-size: 28px;
+  text-transform: uppercase;
+  font-family: cursive, Helvetica, sans-serif; }
 
-H1 Font Size = 50px
-   Font Family = Arial, Helvetica, sans-serif
-   Text-transform: uppercase;
-   color: #FFFFFF;	(White)
+p {
+  font-size: 14px;
+  margin-bottom: 20px; }
 
-H2: Font Size = 18px
-	Text-Transform: uppercase;
-	Font-Family: cursive, Helvetica, sans-serif;
+header .container, footer .container {
+  background: #e27e73; }
+  header .container h1, footer .container h1 {
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px; }
+  header .container h2, footer .container h2 {
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px; }
 
-*/
+footer {
+  text-align: right;
+  color: #FFF; }
+  footer p {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 30px; }
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  background: #FFF; }
+  .container .hero {
+    width: 100%;
+    padding: 0; }
+
+.page {
+  padding-left: 20px;
+  padding-right: 20px; }
+  .page h2 {
+    margin-top: 30px;
+    margin-bottom: 10px; }
+
+.image-links {
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 20px; }
+  .image-links a {
+    text-decoration: none; }
+    .image-links a img {
+      display: inline-block;
+      box-sizing: border-box;
+      border: 5px solid #ccc;
+      padding: 2px;
+      width: 24.5%; }
